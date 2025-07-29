@@ -22,7 +22,7 @@ let apiUrl=`https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${co
 
  let poemElement = document.querySelector("#poem");
   poemElement.classList.remove("hidden");
-  poemElement.innerHTML = `<div class="generating"> Generating a PT poem about ${instructionsInput.value}</div>`;
+  poemElement.innerHTML = `<div class="generating"> Generating a PT poem about ${InstructionsElement.value}...</div>`;
 
 
 
