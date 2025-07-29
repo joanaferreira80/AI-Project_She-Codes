@@ -18,13 +18,16 @@
       <h1>Welcome to the AI Portuguese Poem</h1>
     </head>
     <main>
-      <form action="" id="form">
-        <input type="text" maxlength="20" autofocus="inputText" placeholder="Enter the topic" required
-          class="instructions" id="instructions" />
-        <input type="submit" class="submit-button" />
-      </form>
+      <div class="form-container">
+        <form action="" id="form">
+          <input type="text" maxlength="20" autofocus="inputText" placeholder="Enter the topic of a PT poem" required
+            class="instructions" id="instructions" />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="hint">i.e: Flores, Verão ou Lisboa</div>
+      </div>
       <br>
-      <div class="poem" id="poem">
+      <div class="poem hidden" id="poem">
 
       </div>
       <br>
